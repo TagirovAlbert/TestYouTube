@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0800"
+   LastUpgradeVersion = "0700"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "8155A0D51D46286A00D8535F"
-               BuildableName = "TestYouTube.app"
-               BlueprintName = "TestYouTube"
-               ReferencedContainer = "container:TestYouTube.xcodeproj">
+               BlueprintIdentifier = "26D9968BF9FED2304099848BE75BABF1"
+               BuildableName = "Pods_TestYouTube.framework"
+               BlueprintName = "Pods-TestYouTube"
+               ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -29,15 +29,6 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8155A0D51D46286A00D8535F"
-            BuildableName = "TestYouTube.app"
-            BlueprintName = "TestYouTube"
-            ReferencedContainer = "container:TestYouTube.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -51,16 +42,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8155A0D51D46286A00D8535F"
-            BuildableName = "TestYouTube.app"
-            BlueprintName = "TestYouTube"
-            ReferencedContainer = "container:TestYouTube.xcodeproj">
+            BlueprintIdentifier = "26D9968BF9FED2304099848BE75BABF1"
+            BuildableName = "Pods_TestYouTube.framework"
+            BlueprintName = "Pods-TestYouTube"
+            ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -70,16 +60,6 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8155A0D51D46286A00D8535F"
-            BuildableName = "TestYouTube.app"
-            BlueprintName = "TestYouTube"
-            ReferencedContainer = "container:TestYouTube.xcodeproj">
-         </BuildableReference>
-      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

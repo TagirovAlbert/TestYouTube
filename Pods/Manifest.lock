@@ -1,0 +1,15 @@
+PODS:
+  - Alamofire (4.0.1)
+  - YouTubePlayer (0.3.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.0)
+  - YouTubePlayer
+
+SPEC CHECKSUMS:
+  Alamofire: 7682d43245de14874acd142ec137b144aa1dd335
+  YouTubePlayer: 88713a96c356f2c88da8925eb61438eda88bcd57
+
+PODFILE CHECKSUM: 54e79a7756b31db3b1d65d7c237b9fe26bff4898
+
+COCOAPODS: 1.0.0.rc.2
