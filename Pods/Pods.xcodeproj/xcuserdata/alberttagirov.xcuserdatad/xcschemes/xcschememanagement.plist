@@ -9,12 +9,22 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>AlamofireObjectMapper.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>ObjectMapper.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-TestYouTube.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>YouTubePlayer.xcscheme</key>
+		<key>SwiftyJSON.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -22,17 +32,27 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>26D9968BF9FED2304099848BE75BABF1</key>
+		<key>115D2A8969F05A30C14B6FA44F5429D6</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>64B7C760D10560D0EA22750CEF712AA0</key>
+		<key>24DDFCB50D21C2A79E7666CC067FD096</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>79C040AFDDCE1BCBF6D8B5EB0B85887F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C5CBCAA97E951CC882334464FBDF983D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FBD082A0D35F7917EAB9DD9D3CCA9976</key>
 		<dict>
 			<key>primary</key>
 			<true/>

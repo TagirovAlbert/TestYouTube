@@ -7,13 +7,28 @@
 //
 
 import UIKit
+import ObjectMapper
 
-class Video: NSObject {
+class Video: Mappable {
     
-    var videoID: String = ""
-    var videoTitle: String = ""
-    var videoDescription: String = ""
-    var videoThumbnail: String = ""
+    var videoId: String = ""
+    var title: String = ""
+    var description: String = ""
+    var thumbnailMax: String = ""
     
+    init() {
+        
+    }
+    
+    required init(map: Map) {
+        
+    }
+    
+    func mapping(map: Map){
+        videoId <- map["snippet.resourceId.videoId"]
+        title <- map["snippet.title"]
+        description <- map["snippet.description"]
+        thumbnailMax <- map["snippet.thumbnails.maxres.url"]
+    }
 
 }

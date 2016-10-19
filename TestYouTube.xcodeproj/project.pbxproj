@@ -13,6 +13,7 @@
 		8155A0DF1D46286A00D8535F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8155A0DD1D46286A00D8535F /* Main.storyboard */; };
 		8155A0E11D46286A00D8535F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8155A0E01D46286A00D8535F /* Assets.xcassets */; };
 		8155A0E41D46286A00D8535F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8155A0E21D46286A00D8535F /* LaunchScreen.storyboard */; };
+		81751C401DB7C97600A0C089 /* VideoResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81751C3F1DB7C97600A0C089 /* VideoResponse.swift */; };
 		819A42811D9C49B000563761 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819A427E1D9C49B000563761 /* Video.swift */; };
 		819A42821D9C49B000563761 /* VideoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819A427F1D9C49B000563761 /* VideoDetailViewController.swift */; };
 		819A42831D9C49B000563761 /* VideoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819A42801D9C49B000563761 /* VideoModel.swift */; };
@@ -27,6 +28,7 @@
 		8155A0E01D46286A00D8535F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8155A0E31D46286A00D8535F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8155A0E51D46286A00D8535F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81751C3F1DB7C97600A0C089 /* VideoResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoResponse.swift; sourceTree = "<group>"; };
 		819A427E1D9C49B000563761 /* Video.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
 		819A427F1D9C49B000563761 /* VideoDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoDetailViewController.swift; sourceTree = "<group>"; };
 		819A42801D9C49B000563761 /* VideoModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoModel.swift; sourceTree = "<group>"; };
@@ -76,9 +78,9 @@
 		8155A0D81D46286A00D8535F /* TestYouTube */ = {
 			isa = PBXGroup;
 			children = (
+				81751C3E1DB7C95700A0C089 /* Models */,
 				8155A0D91D46286A00D8535F /* AppDelegate.swift */,
 				8155A0DB1D46286A00D8535F /* ViewController.swift */,
-				819A427E1D9C49B000563761 /* Video.swift */,
 				819A427F1D9C49B000563761 /* VideoDetailViewController.swift */,
 				819A42801D9C49B000563761 /* VideoModel.swift */,
 				8155A0DD1D46286A00D8535F /* Main.storyboard */,
@@ -87,6 +89,23 @@
 				8155A0E51D46286A00D8535F /* Info.plist */,
 			);
 			path = TestYouTube;
+			sourceTree = "<group>";
+		};
+		81751C3D1DB7C94A00A0C089 /* Response Objects */ = {
+			isa = PBXGroup;
+			children = (
+				81751C3F1DB7C97600A0C089 /* VideoResponse.swift */,
+			);
+			name = "Response Objects";
+			sourceTree = "<group>";
+		};
+		81751C3E1DB7C95700A0C089 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				81751C3D1DB7C94A00A0C089 /* Response Objects */,
+				819A427E1D9C49B000563761 /* Video.swift */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 		A1ABF43DF37FE514E26D6DF7 /* Frameworks */ = {
@@ -104,12 +123,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8155A0E81D46286A00D8535F /* Build configuration list for PBXNativeTarget "TestYouTube" */;
 			buildPhases = (
-				6271AFA7DA1942AD01FB507A /* 📦 Check Pods Manifest.lock */,
+				6271AFA7DA1942AD01FB507A /* [CP] Check Pods Manifest.lock */,
 				8155A0D21D46286A00D8535F /* Sources */,
 				8155A0D31D46286A00D8535F /* Frameworks */,
 				8155A0D41D46286A00D8535F /* Resources */,
-				D31917CEEDCE227E732E2929 /* 📦 Embed Pods Frameworks */,
-				7EC4365B78D18C43F5872CA0 /* 📦 Copy Pods Resources */,
+				D31917CEEDCE227E732E2929 /* [CP] Embed Pods Frameworks */,
+				7EC4365B78D18C43F5872CA0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -169,29 +188,29 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		6271AFA7DA1942AD01FB507A /* 📦 Check Pods Manifest.lock */ = {
+		6271AFA7DA1942AD01FB507A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		7EC4365B78D18C43F5872CA0 /* 📦 Copy Pods Resources */ = {
+		7EC4365B78D18C43F5872CA0 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -199,14 +218,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestYouTube/Pods-TestYouTube-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D31917CEEDCE227E732E2929 /* 📦 Embed Pods Frameworks */ = {
+		D31917CEEDCE227E732E2929 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -225,6 +244,7 @@
 				819A42811D9C49B000563761 /* Video.swift in Sources */,
 				8155A0DA1D46286A00D8535F /* AppDelegate.swift in Sources */,
 				819A42831D9C49B000563761 /* VideoModel.swift in Sources */,
+				81751C401DB7C97600A0C089 /* VideoResponse.swift in Sources */,
 				819A42821D9C49B000563761 /* VideoDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -351,7 +371,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = AlbaYouTube;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 2.3;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -367,7 +387,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = AlbaYouTube;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 2.3;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};

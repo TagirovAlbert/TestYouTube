@@ -7,7 +7,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Tube Kids-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TestYouTube" customModuleProvider="target" sceneMemberID="viewController">
@@ -19,15 +19,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="167" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="YRR-Cg-fbh">
-                                <frame key="frameInset" width="600" height="600"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="167" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="YRR-Cg-fbh">
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleAspectFit" selectionStyle="none" indentationWidth="10" reuseIdentifier="BasicCell" rowHeight="180" id="OYq-9Q-auS">
-                                        <rect key="frame" x="0.0" y="92" width="600" height="180"/>
+                                        <rect key="frame" x="0.0" y="92" width="375" height="180"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="OYq-9Q-auS" id="bCv-PE-kif">
-                                            <frame key="frameInset" width="600" height="179"/>
+                                            <frame key="frameInset" width="375" height="179"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" tag="1" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="AEg-o3-JEM"/>
@@ -74,7 +73,7 @@
                             <constraint firstAttribute="trailing" secondItem="YRR-Cg-fbh" secondAttribute="trailing" id="yQL-zv-aot"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="QIv-3N-PgA"/>
+                    <navigationItem key="navigationItem" title="Tube Kids" id="QIv-3N-PgA"/>
                     <connections>
                         <outlet property="tableView" destination="YRR-Cg-fbh" id="kRc-Mo-s5x"/>
                         <segue destination="Db2-Ti-iCP" kind="show" identifier="goToDetail" id="OPa-cG-D4D"/>
@@ -82,7 +81,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1287" y="394"/>
+            <point key="canvasLocation" x="1285.5999999999999" y="393.55322338830587"/>
         </scene>
         <!--Video Detail View Controller-->
         <scene sceneID="B17-Py-Fcm">
@@ -96,8 +95,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kFu-7R-Nog">
-                                <frame key="frameInset" minX="40" minY="264" width="520" height="100"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kFu-7R-Nog">
                                 <constraints>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="100" id="Ard-BX-Pn7"/>
                                 </constraints>
@@ -105,8 +103,7 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4lC-EF-BbJ">
-                                <frame key="frameInset" minX="40" minY="384" width="520"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4lC-EF-BbJ">
                                 <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="18"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>

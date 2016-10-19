@@ -1,15 +1,22 @@
 PODS:
   - Alamofire (4.0.1)
-  - YouTubePlayer (0.3.0)
+  - AlamofireObjectMapper (4.0.0):
+    - Alamofire (~> 4.0)
+    - ObjectMapper (~> 2.0)
+  - ObjectMapper (2.1.0)
+  - SwiftyJSON (3.1.0)
 
 DEPENDENCIES:
   - Alamofire (~> 4.0)
-  - YouTubePlayer
+  - AlamofireObjectMapper (~> 4.0)
+  - SwiftyJSON
 
 SPEC CHECKSUMS:
   Alamofire: 7682d43245de14874acd142ec137b144aa1dd335
-  YouTubePlayer: 88713a96c356f2c88da8925eb61438eda88bcd57
+  AlamofireObjectMapper: 9faa3ce5a240efda1b209009a2d6e1e949227abc
+  ObjectMapper: e5e0f8aef8590fc2ddcde7f27eddb255863ee6e9
+  SwiftyJSON: 29b9f2a64f118c07e691667c2ba1efe536acfe0b
 
-PODFILE CHECKSUM: 54e79a7756b31db3b1d65d7c237b9fe26bff4898
+PODFILE CHECKSUM: 7d6112a4465668720e2b191eb6f69719c59fc367
 
-COCOAPODS: 1.0.0.rc.2
+COCOAPODS: 1.1.0.rc.2
